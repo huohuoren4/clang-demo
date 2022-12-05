@@ -7,4 +7,5 @@ include_directories(header)
 file(GLOB SOURCES "src/*")
 
 # 生成可执行文件
-add_executable(demo ${SOURCES})
+# add_executable(demo ${SOURCES})
+add_executable(main "main.c" ${SOURCES})
