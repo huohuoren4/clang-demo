@@ -1,0 +1,7 @@
+# 编译文件
+*.out
+*.exe
+**/.vscode
+**/build
+**/cmake-build-debug
+**/.idea
